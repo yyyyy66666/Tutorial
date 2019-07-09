@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            a{
+                /* decoration：修饰 */
+                /* 去掉a标签的下划线 */
+                /* text-decoration: none; */
+                /* underline下划线 line-through中线 overline上线 */
+                text-decoration: underline下划线;
+            }
+            .header{
+                width: 100px;
+                height: 100px;
+                /* 圆角 */
+                /* border-radius: 50px; */
+                /* 还可以单独设置四个角：top/bottom left/right */
+                border-bottom-left-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 多个元素排列在一行的，我们称之为行元素 -->
+        <!-- 超链接标签 -->
+        <a href="http://www.baidu.com">百度一下</a>
+        <a href="打字.html">打字</a>
+        <a href="http://www.baidu.com">
+            <img class="header" src="2.jpg" alt="">
+        </a>
+
+        <!-- 一个元素独占一行，我们称之为块元素 -->
+        <div>你好</div>
+        <div>你好</div>
+    </body>
+</html>
